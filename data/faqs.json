@@ -1,0 +1,176 @@
+[
+    {
+        "questions": [
+            "What is artificial intelligence?",
+            "What is AI?",
+            "Explain artificial intelligence",
+            "What does AI mean?"
+        ],
+        "answer": "Artificial Intelligence, or AI, is the technology of creating computer systems that can perform tasks that normally require human intelligence."
+    },
+    {
+        "questions": [
+            "What is machine learning?",
+            "What is ML?",
+            "Explain machine learning",
+            "How does machine learning work?"
+        ],
+        "answer": "Machine learning is a branch of AI where computers learn patterns from data and use those patterns to make predictions or decisions."
+    },
+    {
+        "questions": [
+            "What is computer vision?",
+            "What is computer vision used for?",
+            "How do computers understand images?",
+            "How can AI understand images?"
+        ],
+        "answer": "Computer vision is a field of AI that enables computers to understand and analyze images and videos."
+    },
+    {
+        "questions": [
+            "What is object detection?",
+            "Can AI find objects in videos?",
+            "Can AI detect objects?",
+            "How can I detect objects in a video?",
+            "What does object detection do?"
+        ],
+        "answer": "Object detection is a computer vision technique that identifies objects in an image or video and determines their locations."
+    },
+    {
+        "questions": [
+            "What is object tracking?",
+            "How does object tracking work?",
+            "Can AI track objects in a video?",
+            "What does object tracking do?"
+        ],
+        "answer": "Object tracking follows detected objects across multiple video frames and assigns an identifier to each object."
+    },
+    {
+        "questions": [
+            "What is YOLO?",
+            "What does YOLO do?",
+            "What is the YOLO algorithm?",
+            "How does YOLO detect objects?"
+        ],
+        "answer": "YOLO, which stands for You Only Look Once, is a real-time object detection algorithm used to detect objects in images and videos."
+    },
+    {
+        "questions": [
+            "What is AI music generation?",
+            "What is AI generated music?",
+            "How does AI generate music?",
+            "Can AI create music?",
+            "How can AI create songs?"
+        ],
+        "answer": "AI music generation uses artificial intelligence and machine learning models to learn musical patterns and generate new music."
+    },
+    {
+        "questions": [
+            "What is MIDI?",
+            "What does MIDI mean?",
+            "Explain MIDI",
+            "What is a MIDI file?"
+        ],
+        "answer": "MIDI is a digital format that stores musical information such as notes, timing, instruments, and other performance instructions."
+    },
+    {
+        "questions": [
+            "What is an LSTM?",
+            "What does LSTM mean?",
+            "Explain LSTM",
+            "What is LSTM used for?"
+        ],
+        "answer": "LSTM, or Long Short-Term Memory, is a type of recurrent neural network designed to learn patterns and dependencies in sequential data."
+    },
+    {
+        "questions": [
+            "What is NLP?",
+            "What does NLP mean?",
+            "What is natural language processing?",
+            "Explain natural language processing"
+        ],
+        "answer": "Natural Language Processing, or NLP, is a field of AI that enables computers to process, understand, and work with human language."
+    },
+    {
+        "questions": [
+            "What is a chatbot?",
+            "What does a chatbot do?",
+            "Explain chatbot",
+            "How does a chatbot work?"
+        ],
+        "answer": "A chatbot is a software application that communicates with users through text or speech and provides responses based on programmed logic or AI."
+    },
+    {
+        "questions": [
+            "What is text preprocessing?",
+            "What is NLP preprocessing?",
+            "Why do we preprocess text?",
+            "How is text cleaned for NLP?"
+        ],
+        "answer": "Text preprocessing is the process of cleaning and preparing text before it is used for natural language processing or machine learning."
+    },
+    {
+        "questions": [
+            "What is TF-IDF?",
+            "What is TF IDF?",
+            "What does TF-IDF mean?",
+            "Explain TF-IDF",
+            "What is tfidf?"
+        ],
+        "answer": "TF-IDF, or Term Frequency-Inverse Document Frequency, is a technique that converts text into numerical values based on the importance of words."
+    },
+    {
+        "questions": [
+            "What is cosine similarity?",
+            "How does cosine similarity work?",
+            "What is similarity matching?",
+            "How does the chatbot compare questions?"
+        ],
+        "answer": "Cosine similarity measures how similar two text vectors are by comparing the angle between them."
+    },
+    {
+        "questions": [
+            "How does this FAQ chatbot work?",
+            "How does the chatbot find answers?",
+            "How does this chatbot match questions?",
+            "How does the AI chatbot work?"
+        ],
+        "answer": "The chatbot preprocesses the user's question, converts it into a TF-IDF vector, compares it with the FAQ questions using cosine similarity, and returns the answer with the highest similarity."
+    },
+    {
+        "questions": [
+            "What topics can I ask this chatbot about?",
+            "What can I ask the chatbot?",
+            "Which topics does this chatbot understand?",
+            "What questions can I ask?"
+        ],
+        "answer": "You can ask questions about artificial intelligence, machine learning, NLP, computer vision, object detection, object tracking, YOLO, AI music generation, MIDI, and LSTM."
+    },
+    {
+        "questions": [
+            "Can the chatbot understand different questions?",
+            "Can I ask the same thing differently?",
+            "Does the chatbot understand different wording?",
+            "Can the chatbot understand similar questions?"
+        ],
+        "answer": "Yes. The chatbot uses text similarity to find an FAQ that is similar to the user's question, even when the wording is not exactly the same."
+    },
+    {
+        "questions": [
+            "What happens when the chatbot does not understand?",
+            "What happens if there is no matching question?",
+            "What if the chatbot cannot find an answer?",
+            "What happens when there is no FAQ match?"
+        ],
+        "answer": "If no FAQ has a sufficiently high similarity score, the chatbot returns a fallback message asking the user to try a different question."
+    },
+    {
+        "questions": [
+            "What technologies are used in this chatbot?",
+            "Which technologies are used?",
+            "What libraries does this chatbot use?",
+            "What tools were used to build the chatbot?"
+        ],
+        "answer": "This chatbot uses Python, NLTK for NLP preprocessing, scikit-learn for TF-IDF and cosine similarity, and Streamlit for the user interface."
+    }
+]
